@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🔑 Projeto de autenticação
+Este é um projeto de exemplo de um sistema de controle financeiro desenvolvido com React, JavaScript e as bibliotecas react-router-dom, Yarn.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📃 Sobre o Projeto 
+O Sistema de Controle Financeiro é uma aplicação web que ajuda os usuários a monitorar suas finanças pessoais. Os usuários podem adicionar registros de entrada e saída de dinheiro, visualizar o saldo total e todos os dados são armazenados localmente no navegador, garantindo que as informações sejam persistentes mesmo após fechar o navegador.
 
-## Available Scripts
+### ⚙️ Funcionalidades Principais 
+- **Registro de Entradas:** Permite adicionar valores recebidos.
 
-In the project directory, you can run:
+- **Registro de Saídas:** Permite adicionar valores gastos.
 
-### `npm start`
+- **Cálculo de Saldo Total:** Calcula o saldo total disponível com base nos valores de entrada e saída.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Armazenamento Local:** Guarda todos os valores no Local Storage do navegador para persistência dos dados.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interface Intuitiva:** Interface amigável ,fácil e responsiva de usar para gerenciar as finanças pessoais.
 
-### `npm test`
+### 🧱 Estrutura do Projeto
+O projeto é organizado em uma estrutura de pastas que separa componentes, páginas e configurações, facilitando a manutenção e escalabilidade do código.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠️ Constuido com:
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="imagem HTML" width="20" height="20" /> [React](https://react.dev/)- Uma biblioteca JavaScript para construir interfaces de usuário interativas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" alt="imagem HTML" width="20" height="20" /> [React-router-dom](https://reactrouter.com/en/main)- Uma biblioteca que fornece utilitários para roteamento de páginas em aplicações React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yarn/yarn-original.svg" alt="imagem HTML" width="20" height="20" /> [Yarn](https://yarnpkg.com/)- Um gerenciador de pacotes para o ecossistema JavaScript. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="imagem HTML" width="20" height="20" /> [HTML](https://www.w3schools.com/html/default.asp)- Este arquivo contém a estrutura HTML para a página.
 
-### `npm run eject`
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="imagem HTML" width="20" height="20" /> [CSS](https://www.w3schools.com/css/default.asp)- O arquivo de estilo CSS contém o layout e a aparência visual,responsividade , incluindo o destaque em verde ou vermelho para o resultado.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Começando
+De que coisas você precisa para o software e como instalá-lo?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Criar o projeto 
+```node
+npx create-reacct-app ./
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Adicionar o yarn styled e react-router-dom
+```node
+yarn add styled-components react-icons
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Rodar o projeto 
+```node
+yarn start
+```
 
-## Learn More
+## 📄 Licença
+Este projeto está licenciado sob a [Licença MIT](https://github.com/LinsDeveloper/NeverLoss/blob/main/LICENSE), o que significa que você pode usá-lo livremente, modificar e distribuir conforme suas necessidades.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎁 Contribuições
+Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou correções, sinta-se à vontade para criar uma issue ou enviar um pull request.
